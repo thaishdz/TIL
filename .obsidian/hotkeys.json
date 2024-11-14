@@ -1,0 +1,10 @@
+{
+  "templater-obsidian:create-TIL Template.md": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
+  ]
+}
