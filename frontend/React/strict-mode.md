@@ -16,6 +16,8 @@ How StrictMode works:
 
 👉 [How StrictMode works - 📺 ](https://youtu.be/GMnWXlJnbNo?si=Z3BjJKEFp0oiyClO&t=3844)
 
+> **If you call an** `/api` endpoint, and you see that the component was created twice, that means `<StrictMode>` is working.
+
 ## Example 
 
 ```jsx
@@ -31,9 +33,10 @@ root.render(
 );
 
 ```
+>[!WARNING]
+> In the production environment, to disable this behavior!
 
 
-> **If you call an** `/api` endpoint, and you see that the component was created twice, that means `<StrictMode>` is working.
 
 
 
