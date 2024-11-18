@@ -1,7 +1,6 @@
 
-## What I Learned :LiGlasses:
----
-It manages how the components work.
+# TIL : `<StrictMode>` manages how the components work
+
 
 How StrictMode works:
 
@@ -14,8 +13,9 @@ How StrictMode works:
 4. Reload the same component again.
 
 5. Check if the state of the component that was just recreated is the same as before it was destroyed.
-## Example :LiCode2:
----
+
+## Example 
+
 ```jsx
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
@@ -30,14 +30,9 @@ root.render(
 
 ```
 
-## Notes and Reflections :LiNotebookPen:
----
-**If you call an** `/api` endpoint, and you see that the component was created twice, that means `<StrictMode>` is working.
-## References :LiLink2:
----
 
-- [Link to source 1](#)
-- [Link to source 2](#)
+> **If you call an** `/api` endpoint, and you see that the component was created twice, that means `<StrictMode>` is working.
+
 
 
 
