@@ -1,0 +1,25 @@
+
+# TIL : It's not necessary to preserve the code by commenting it, because you can use `git log` to search for the piece of code you need.
+
+### Example
+
+You want to search a piece of code that called `PutCursorAt`
+
+```sh
+git log --oneline -G "PutCursorAt"
+```
+
+It very quickly spits out the commits that contain code that matches the `PutCursorAt` pattern (read more about `-G` option here):
+
+```sh
+> git log --oneline -G "PutCursorAt"
+
+36ee67ec Use Write to drop PutCursorAt logic
+ac07e7b3 Update cursor to follow moved down statement
+79f1bb43 Update cursor to follow moved up statement
+(END)
+
+```
+Narrowed down to 3 commits. Not bad. In fact, commit `36ee67ec` seems to be the one I was looking for.
+
+👉 Click here for more : [Delete unused code 📰](https://understandlegacycode.com/blog/delete-unused-code/#how-to-retrieve-deleted-code-from-git-logs)
