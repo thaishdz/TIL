@@ -22,4 +22,7 @@ ac07e7b3 Update cursor to follow moved down statement
 ```
 Narrowed down to 3 commits. Not bad. In fact, commit `36ee67ec` seems to be the one I was looking for.
 
+>[!NOTE]
+> `git log -G` is your way to find code across the whole git history of the project. The `--oneline` option is here to make the output slim and to the point.
+
 👉 Click here for more : [Delete unused code 📰](https://understandlegacycode.com/blog/delete-unused-code/#how-to-retrieve-deleted-code-from-git-logs)
