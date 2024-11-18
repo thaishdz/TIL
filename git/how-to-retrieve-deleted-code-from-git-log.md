@@ -25,4 +25,16 @@ Narrowed down to 3 commits. Not bad. In fact, commit `36ee67ec` seems to be the 
 >[!NOTE]
 > `git log -G` is your way to find code across the whole git history of the project. The `--oneline` option is here to make the output slim and to the point.
 
+#### Need to find the commit where we got rid of your “daily emails” feature? 
+
+```sh
+git log --oneline -G "daily-email"
+```
+
+#### Do you remember the name of the deleted file, but you are not sure where it was located?
+
+```sh
+git log --oneline -- **/dailyEmail.ts
+```
+
 👉 Click here for more : [Delete unused code 📰](https://understandlegacycode.com/blog/delete-unused-code/#how-to-retrieve-deleted-code-from-git-logs)
