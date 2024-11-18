@@ -1,7 +1,5 @@
 
-## What I Learned :LiGlasses:
----
-The bundling process has 3 parts:
+# TIL : The bundling process has 3 parts, `minified` | `uglified` | `tree shaking`
 
 - **Minified** - The code is compressed into a smaller version to reduce file size. This removes blank spaces, comments and code non essencial
 
@@ -11,14 +9,12 @@ The bundling process has 3 parts:
 
 - **Tree Shaking** - Removes unused code and files during the bundling process.”
 
-## Notes and Reflections :LiPencil:
----
-The bundling process is great for optimizing web performance and makes life harder for hackers, although they can decompile it using their hacking tools :LiThumbsUp:
+> [!NOTE]
+> The bundling process is great for optimizing web performance and makes life harder for hackers, although they can decompile it using their hacking tools :LiThumbsUp:
 
-## References :LiLink2:
----
 
-- [What is a bundle - video](https://youtu.be/GMnWXlJnbNo?si=ryWSOjzlb-RYjZQK&t=3061)
+
+👉 [What is a bundle - 📺](https://youtu.be/GMnWXlJnbNo?si=ryWSOjzlb-RYjZQK&t=3061)
 
 
 
