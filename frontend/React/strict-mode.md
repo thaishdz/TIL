@@ -1,5 +1,5 @@
 
-# TIL : `<StrictMode>` manages how the components work
+# TIL : `<StrictMode>` controls how the components function
 
 
 How StrictMode works:
@@ -13,6 +13,8 @@ How StrictMode works:
 4. Reload the same component again.
 
 5. Check if the state of the component that was just recreated is the same as before it was destroyed.
+
+👉 [How StrictMode works - 📺 ](https://youtu.be/GMnWXlJnbNo?si=Z3BjJKEFp0oiyClO&t=3844)
 
 ## Example 
 
