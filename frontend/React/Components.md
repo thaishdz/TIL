@@ -1,6 +1,7 @@
 
 # TIL: What is a component and how does it work
 
+_25/11/2024_
 
 ![image](https://github.com/user-attachments/assets/60e239f4-c999-479c-9fcc-1de316ab4392)
 
