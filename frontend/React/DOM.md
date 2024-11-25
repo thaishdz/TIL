@@ -28,11 +28,3 @@ Only the differences are applied to the real DOM, without re-rendering everythin
 
 
 
-# What is rendering?
-
-It's the action that executes a function
-
-![image](https://github.com/user-attachments/assets/de63fdb6-1ff6-42fa-a1ee-a746b4096cfe)
-
->[!NOTE]
-> Each component always returns HTML-like code (JSX).
