@@ -28,3 +28,5 @@ Only the differences are applied to the real DOM, without re-rendering everythin
 
 
 
+>[!NOTE]
+> Commit is the process that applies changes to the Real DOM.
