@@ -25,3 +25,14 @@ React compares the current Virtual DOM with the previous one (in memory)
 Only the differences are applied to the real DOM, without re-rendering everything.
 
 ![image](https://github.com/user-attachments/assets/92c03b4d-fb9e-4e6c-80ce-de0daf2c58fd)
+
+
+
+# What is rendering?
+
+It's the action that executes a function
+
+![image](https://github.com/user-attachments/assets/de63fdb6-1ff6-42fa-a1ee-a746b4096cfe)
+
+>[!NOTE]
+> Each component always returns HTML-like code (JSX).
