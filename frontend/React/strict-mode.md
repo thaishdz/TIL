@@ -21,18 +21,23 @@ How StrictMode works:
 ## Example 
 
 ```jsx
-import React, { StrictMode } from 'react';
-import ReactDOM from 'react-dom/client';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import App from "./App.tsx";
+
+const root = createRoot(document.getElementById('root')!);
 
 // Renderizando la aplicación envuelta en StrictMode
-const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
-    <MyComponent />
+    <App />
   </StrictMode>
 );
 
 ```
+>[!Note]
+> The `!` is used to ensure that "root" is not `null`, avoiding potential issues if the DOM element with the `ID` `root` is missing.
+
 >[!WARNING]
 > In the production environment, to disable this behavior!
 
