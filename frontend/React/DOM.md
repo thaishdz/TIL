@@ -1,6 +1,6 @@
 
 # TIL : Change detection in the DOM
-
+_25/11/2024_
 
 #### 1. Initial render
 
