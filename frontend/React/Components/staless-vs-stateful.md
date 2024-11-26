@@ -6,6 +6,8 @@ There are 2 types of components:
 
 ### Dummy components 🐵
 
+_Delega la lógica a otro y lo usamos para estilizar algún componente_
+
 ```tsx
 export const Button = ({label, parentMethod}: Props) => {
   return (
@@ -21,6 +23,8 @@ It’s considered a dummy component because it is stateless (does not have its o
 ---
 
 ### Smart components 🧠
+
+_contiene la lógica de aplicación_
 
 _... also called a stateful component_
 
