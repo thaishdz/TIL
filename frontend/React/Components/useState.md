@@ -25,7 +25,7 @@ function App()
 {
   const [count, setCount] = useState(0);
   const countMore = () => {
-    setCount((count) + count + 1);
+    setCount((count) => count + 1);
   }
   return (
   <>
@@ -45,6 +45,36 @@ How works ...`const [count, setCount]`
 `useState(0);` El número 0 es el estado inicial de la variable count.
 
 
+
+# Ejemplo práctico para entenderlo
+
+### Problema con `setCount(count + 1)`
+Imagina que tienes este botón:
+
+```tsx
+<button onClick={() => {
+  setCount(count + 1);
+  setCount(count + 1);
+}}>
+  Double Click Me
+</button>
+```
+Si haces clic, esperarías que `count` aumente en 2, pero puede que solo aumente en 1. ¿Por qué?
+
+Ambas llamadas a `setCount` usan el mismo valor inicial de `count`, porque React no ha actualizado el estado todavía.
+
+Solución con función:
+Con una función como `(count) => count + 1`, cada llamada usa el valor más reciente del estado:
+
+```tsx
+<button onClick={() => {
+  setCount((count) => count + 1);
+  setCount((count) => count + 1);
+}}>
+  Double Click Me
+</button>
+```
+Ahora, el estado se incrementará en 2, porque cada llamada toma el estado actualizado del ciclo anterior.
 >[!NOTE]
 `useState` is key in functional components because it lets you manage state without the need for classes. 😎
 
